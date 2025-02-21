@@ -1,0 +1,24 @@
+# Build files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio settings
+.vs/
+.github/
+*.user
+*.suo
+
+# Temporary files
+*.log
+*.tmp
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Secrets
+.env
+appsettings.json

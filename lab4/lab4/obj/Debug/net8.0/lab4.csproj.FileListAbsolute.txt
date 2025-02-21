@@ -262,3 +262,4 @@ D:\c_sharp\lab4\lab4\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resou
 D:\c_sharp\lab4\lab4\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\c_sharp\lab4\lab4\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\c_sharp\lab4\lab4\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\c_sharp\lab4\lab4\obj\Debug\net8.0\lab4.sourcelink.json

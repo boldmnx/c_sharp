@@ -1,0 +1,30 @@
+
+* code first -model uusged migration hiih
+* db first - osan uusne dara n model uusne
+* model/schema
+-----------------
+- ef core
+- ef sql
+- ef tools
+
+---------
+LINQ query is JSON XML hamaagui datatai hartsana avna
+
+
+------------------
+Scaffold-DbContext "Server=.\SQLEXPRESS;Database=lect2;User Id=sa;Password=admin123;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+------------
+Scaffold-DbContext "Server=localhost;Database=lect2;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+---------------
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+----------------------
+"ConnectionStrings": {
+    "DefaultConnection": "Server=.\\SQLEXPRESS;Database=lect2;User Id=sa;Password=admin123;TrustServerCertificate=True"
+}
+----------------------------
+builder.Services.AddDbContext<Lect2Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+---------------------------
+

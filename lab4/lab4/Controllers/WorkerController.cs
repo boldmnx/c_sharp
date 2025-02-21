@@ -181,22 +181,26 @@ namespace lab4.Controllers
         // GET: WorkerController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
-        }
-
-        // POST: WorkerController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
             try
             {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    SqlCommand cmd = con.CreateCommand();
+                    cmd.CommandText = "DELETE FROM dbo.worker WHERE wid = @id;";
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.ExecuteNonQuery();
+                }
+
+                // Амжилттай устгасны дараа Index руу шилжих
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
+                // Алдаа гарвал хэрэглэгчид алдааг мэдэгдэх
                 return View();
             }
         }
+
     }
 }
