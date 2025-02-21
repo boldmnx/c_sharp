@@ -1,0 +1,46 @@
+﻿@{
+	var workers = ViewBag.workers as List<dynamic>;
+}
+
+<h2>workers List</h2>
+<a href="@Url.Action("Create")" class="btn btn-success mb-3">
+	<i class="fas fa-plus"></i> Create New Worker
+</a>
+
+@if (workers != null && workers.Count > 0)
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Worker Name</th>
+				<th>Branch Name</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var worker in workers)
+			{
+				<tr>
+					<td>@worker.Id</td>
+					<td>@worker.Name</td>
+					<td>@worker.BranchName</td>
+					<td>
+						<!-- Edit icon -->
+						<a href="@Url.Action("Edit","Worker", new { id = worker.Id })" class="btn btn-primary">
+							<i class="fas fa-edit"></i> Edit
+						</a>
+
+						<!-- Delete icon -->
+						<a class="btn btn-danger" href="@Url.Action("Delete", "Worker", new { id = worker.Id })"
+						   onclick="return confirm('Та устгахдаа итгэлтэй байна уу?');"> <i class="fas fa-trash-alt"></i> Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+else
+{
+	<p>No workers found or an error occurred!  @workers</p>
+}

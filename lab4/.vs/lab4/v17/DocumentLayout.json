@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c_sharp\\lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5008452-3DDE-4DEC-9030-E8CC84EE71D2}|lab4\\lab4.csproj|d:\\c_sharp\\lab4\\lab4\\controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5008452-3DDE-4DEC-9030-E8CC84EE71D2}|lab4\\lab4.csproj|solutionrelative:lab4\\controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5008452-3DDE-4DEC-9030-E8CC84EE71D2}|lab4\\lab4.csproj|d:\\c_sharp\\lab4\\lab4\\views\\worker\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5008452-3DDE-4DEC-9030-E8CC84EE71D2}|lab4\\lab4.csproj|solutionrelative:lab4\\views\\worker\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5008452-3DDE-4DEC-9030-E8CC84EE71D2}|lab4\\lab4.csproj|d:\\c_sharp\\lab4\\lab4\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5008452-3DDE-4DEC-9030-E8CC84EE71D2}|lab4\\lab4.csproj|solutionrelative:lab4\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\c_sharp\\lab4\\lab4\\Views\\Worker\\Edit.cshtml",
+              "RelativeDocumentMoniker": "lab4\\Views\\Worker\\Edit.cshtml",
+              "ToolTip": "D:\\c_sharp\\lab4\\lab4\\Views\\Worker\\Edit.cshtml",
+              "RelativeToolTip": "lab4\\Views\\Worker\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T07:45:58.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "D:\\c_sharp\\lab4\\lab4\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "lab4\\Controllers\\BranchController.cs",
+              "ToolTip": "D:\\c_sharp\\lab4\\lab4\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "lab4\\Controllers\\BranchController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswJUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:41:43.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkerController.cs",
+              "DocumentMoniker": "D:\\c_sharp\\lab4\\lab4\\Controllers\\WorkerController.cs",
+              "RelativeDocumentMoniker": "lab4\\Controllers\\WorkerController.cs",
+              "ToolTip": "D:\\c_sharp\\lab4\\lab4\\Controllers\\WorkerController.cs",
+              "RelativeToolTip": "lab4\\Controllers\\WorkerController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAUwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:41:44.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿@{
+	var branches = ViewBag.branches as List<dynamic>;
+}
+
+<h2>Branches List</h2>
+<a href="@Url.Action("Create")" class="btn btn-success mb-3">
+	<i class="fas fa-plus"></i> Create New Branch
+</a>
+
+@if (branches != null && branches.Count > 0)
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Branch Name</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var branch in branches)
+			{
+				<tr>
+					<td>@branch.Id</td>
+					<td>@branch.Name</td>
+					<td>
+
+
+						<!-- Edit icon -->
+						<a href="@Url.Action("Edit","Branch", new { id = branch.Id })" class="btn btn-primary">
+							<i class="fas fa-edit"></i> Edit
+						</a>
+
+						<!-- Delete icon -->
+						<a class="btn btn-danger" href="@Url.Action("Delete", "Branch", new { id = branch.Id })"
+						   onclick="return confirm('Та устгахдаа итгэлтэй байна уу?');"> <i class="fas fa-trash-alt"></i> Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+else
+{
+	<p>No branches found or an error occurred!  @branches</p>
+}

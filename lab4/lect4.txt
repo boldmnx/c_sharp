@@ -1,0 +1,10 @@
+1. ado.net 
+2. sqlConnect - Connection String, (State, Close- using like python with))
+3. sqlCommand - commandText, Parameters, connection
+4. sqldatareader
+5. execute_non_query
+
+
+
+
+package name: microsoft.data.sqlclient

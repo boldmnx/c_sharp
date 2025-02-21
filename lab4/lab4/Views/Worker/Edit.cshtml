@@ -1,0 +1,45 @@
+﻿@model dynamic
+
+<h2>Edit Worker</h2>
+
+
+<form action="@Url.Action("Edit", "Worker", new { id = Model.Id })" method="post">
+	@Html.AntiForgeryToken()  <!-- CSRF Token -->
+
+	<input type="hidden" name="id" value="@Model.Id" />
+
+	<div class="col-md-4">
+		<label for="workerName">Worker Name:</label>
+		<input class="form-control" type="text" name="workerName" value="@Model.Name" required />
+	</div>
+	<br />
+	<div class="col-md-4">
+
+		<label for="workerName">Branch Name:</label>
+
+		<select name="bid" class="form-control">
+			<option value="">------</option> 
+			@if (ViewBag.Branches != null)
+			{
+				foreach (var branch in ViewBag.Branches)
+				{
+					if (branch.Id == Model.Bid)
+					{
+						<option value="@branch.Id" selected>@branch.Name</option>
+					}
+					else
+					{
+						<option value="@branch.Id">@branch.Name</option>
+					}
+				}
+			}
+		</select>
+
+
+	</div>
+	<br />
+	<button class="btn btn-success" type="submit">Save Changes</button>
+	<a href="@Url.Action("Index")" class="btn btn-secondary">
+		<i class="fas fa-arrow-left"></i> Back to List
+	</a>
+</form>

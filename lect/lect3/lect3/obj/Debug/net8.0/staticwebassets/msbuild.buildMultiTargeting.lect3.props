@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\lect3.props" />
+</Project>

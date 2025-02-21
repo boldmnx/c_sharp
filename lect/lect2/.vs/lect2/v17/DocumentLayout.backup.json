@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\lect\\lect2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\controllers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\controllers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\views\\workers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\views\\workers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\views\\branches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\views\\branches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\views\\workers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\views\\workers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\controllers\\branchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\controllers\\branchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\views\\workers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\views\\workers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\views\\workers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\views\\workers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|d:\\c#\\lect\\lect2\\lect2\\models\\lect2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4213ABB-6CC3-4AA5-9CF2-91B2DF3EACF3}|lect2\\lect2.csproj|solutionrelative:lect2\\models\\lect2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\appsettings.json",
+              "RelativeDocumentMoniker": "lect2\\appsettings.json",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\appsettings.json",
+              "RelativeToolTip": "lect2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T01:48:29.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Views\\Branches\\Edit.cshtml",
+              "RelativeDocumentMoniker": "lect2\\Views\\Branches\\Edit.cshtml",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Views\\Branches\\Edit.cshtml",
+              "RelativeToolTip": "lect2\\Views\\Branches\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T07:56:38.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "lect2\\Models\\Branch.cs",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Models\\Branch.cs",
+              "RelativeToolTip": "lect2\\Models\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T07:41:41.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkersController.cs",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Controllers\\WorkersController.cs",
+              "RelativeDocumentMoniker": "lect2\\Controllers\\WorkersController.cs",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Controllers\\WorkersController.cs",
+              "RelativeToolTip": "lect2\\Controllers\\WorkersController.cs",
+              "ViewState": "AgIAAGsAAAAAUpinrnYiwHAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T03:49:37.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Program.cs",
+              "RelativeDocumentMoniker": "lect2\\Program.cs",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Program.cs",
+              "RelativeToolTip": "lect2\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T03:43:55.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lect2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lect2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T03:38:55.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "lect2\\Views\\Workers\\Edit.cshtml",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Edit.cshtml",
+              "RelativeToolTip": "lect2\\Views\\Workers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T03:53:27.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Create.cshtml",
+              "RelativeDocumentMoniker": "lect2\\Views\\Workers\\Create.cshtml",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Create.cshtml",
+              "RelativeToolTip": "lect2\\Views\\Workers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T06:43:47.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BranchesController.cs",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Controllers\\BranchesController.cs",
+              "RelativeDocumentMoniker": "lect2\\Controllers\\BranchesController.cs",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Controllers\\BranchesController.cs",
+              "RelativeToolTip": "lect2\\Controllers\\BranchesController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T03:06:46.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lect2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lect2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T03:39:28.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "lect2\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "lect2\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-07T04:39:34.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Details.cshtml",
+              "RelativeDocumentMoniker": "lect2\\Views\\Workers\\Details.cshtml",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Details.cshtml",
+              "RelativeToolTip": "lect2\\Views\\Workers\\Details.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T03:59:15.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Index.cshtml",
+              "RelativeDocumentMoniker": "lect2\\Views\\Workers\\Index.cshtml",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Views\\Workers\\Index.cshtml",
+              "RelativeToolTip": "lect2\\Views\\Workers\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T03:52:19.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "lect2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "lect2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T03:52:15.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Lect2Context.cs",
+              "DocumentMoniker": "D:\\c#\\lect\\lect2\\lect2\\Models\\Lect2Context.cs",
+              "RelativeDocumentMoniker": "lect2\\Models\\Lect2Context.cs",
+              "ToolTip": "D:\\c#\\lect\\lect2\\lect2\\Models\\Lect2Context.cs",
+              "RelativeToolTip": "lect2\\Models\\Lect2Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T03:02:30.074Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

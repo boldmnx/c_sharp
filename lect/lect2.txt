@@ -1,0 +1,16 @@
+
+* code -model uusged migration hiih
+* db first - osan uusne dara n model uusne
+* model/schema
+
+
+---------
+LINQ query is JSON XML hamaagui datatai hartsana avna
+-------
+context-neg sav
+dotorh hool- entity
+
+Scaffold-DbContext "Server=.\SQLEXPRESS;Database=lect2;User Id=sa;Password=admin123;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+appcibb connectstr  hi -settingsde oruulna
