@@ -18,18 +18,18 @@
 		<label for="workerName">Branch Name:</label>
 
 		<select name="bid" class="form-control">
-			<option value="">------</option> 
+			<option value="">-------------</option> 
 			@if (ViewBag.Branches != null)
 			{
 				foreach (var branch in ViewBag.Branches)
 				{
 					if (branch.Id == Model.Bid)
 					{
-						<option value="@branch.Id" selected>@branch.Name</option>
+						<option value="@branch.Id" selected> @branch.Name </option>
 					}
 					else
 					{
-						<option value="@branch.Id">@branch.Name</option>
+						<option value="@branch.Id"> @branch.Name </option>
 					}
 				}
 			}

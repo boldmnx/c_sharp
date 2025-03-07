@@ -1,4 +1,5 @@
-﻿using Humanizer;
+﻿using System.Security.Cryptography;
+using Humanizer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -53,6 +54,27 @@ namespace lab4.Controllers
         // GET: WorkerController/Create
         public ActionResult Create()
         {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+                string branchesQuery = "SELECT bid, bname FROM dbo.branch";
+                SqlCommand branchCmd = new SqlCommand(branchesQuery, con);
+
+                List<dynamic> branches = new List<dynamic>();
+
+                using (SqlDataReader reader = branchCmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        branches.Add(new
+                        {
+                            Id = reader["bid"],
+                            Name = reader["bname"]
+                        });
+                    }
+                }
+                ViewBag.Branches = branches;
+            }
             return View();
         }
 
@@ -61,14 +83,35 @@ namespace lab4.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
-            try
+            string wname = collection["wname"];
+            string bid = collection["bid"];
+
+            if (!string.IsNullOrEmpty(wname) && !string.IsNullOrEmpty(bid))
             {
-                return RedirectToAction(nameof(Index));
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    SqlCommand cmd = con.CreateCommand();
+                    cmd.CommandText = "INSERT INTO [dbo].[worker] ([wname], [bid]) VALUES (@wname, @bid)";
+                    cmd.Parameters.AddWithValue("@wname", wname);
+                    cmd.Parameters.AddWithValue("@bid", bid);
+
+                    int rowsAffected = cmd.ExecuteNonQuery();
+                    if (rowsAffected > 0)
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Worker creation failed.");
+                    }
+                }
             }
-            catch
+            else
             {
-                return View();
+                ModelState.AddModelError("", "Invalid input data.");
             }
+            return View();
         }
 
         // GET: WorkerController/Edit/5
@@ -80,10 +123,10 @@ namespace lab4.Controllers
                 con.Open();
 
                 string workerQuery = @"
-        SELECT w.[wid], w.[wname], w.[bid], b.[bname] 
-        FROM [dbo].[worker] w 
-        INNER JOIN [dbo].[branch] b ON w.[bid] = b.[bid] 
-        WHERE w.[wid] = @id";
+                        SELECT w.[wid], w.[wname], w.[bid], b.[bname] 
+                        FROM [dbo].[worker] w 
+                        INNER JOIN [dbo].[branch] b ON w.[bid] = b.[bid] 
+                        WHERE w.[wid] = @id";
 
                 SqlCommand cmd = new SqlCommand(workerQuery, con);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -149,7 +192,6 @@ namespace lab4.Controllers
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
-
                     con.Open();
                     SqlCommand cmd = con.CreateCommand();
                     cmd.CommandText = " UPDATE [dbo].[worker]  SET [wname] = @wname,  [bid] = @bid WHERE wid=@wid ";
