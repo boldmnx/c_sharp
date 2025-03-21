@@ -12,12 +12,9 @@ namespace lab6.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Bagsh>()
-                .OwnsOne(b => b.info, bInfo =>
-                {
-                    bInfo.Property(i => i.CreatedDate).IsRequired(); // IsRequired() ашиглаж байна
-                });
-
-            base.OnModelCreating(modelBuilder);
+                .OwnsOne(b => b.info);
+            modelBuilder.Entity<ErdmiinZereg>()
+           .OwnsOne(b => b.Info);
         }
 
 

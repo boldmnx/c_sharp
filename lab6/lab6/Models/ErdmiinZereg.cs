@@ -10,7 +10,7 @@ namespace lab6.Models
         [Column("eid", Order = 1)]          // 3
         public int Id { get; set; }
 
-        [Display(Name = "Эрдминй зэрэг")]                             // 6
+        [Display(Name = "Эрдмийн зэрэг")]                             // 6
         [Column("ename", Order = 2, TypeName = "nvarchar(50)")]
         [Required(ErrorMessage = "Эрдмийн зэрэг оруулна уу!")]        // 7
         public string Name { get; set; }

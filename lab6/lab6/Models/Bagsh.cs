@@ -21,8 +21,9 @@ namespace lab6.Models
         public string RegisteriinDugaar { get; set; }
         public int eid { get; set; }
         [ForeignKey("eid")]                                  //5
-        public virtual ErdmiinZereg? ErdmiinZereg { get; set; }
+        public virtual ErdmiinZereg ErdmiinZereg { get; set; }
 
-        public Info? info { get; set; }
+
+        public Info info { get; set; }
     }
 }
