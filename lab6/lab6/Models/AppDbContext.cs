@@ -13,6 +13,7 @@ namespace lab6.Models
         {
             modelBuilder.Entity<Bagsh>()
                 .OwnsOne(b => b.info);
+
             modelBuilder.Entity<ErdmiinZereg>()
            .OwnsOne(b => b.Info);
         }

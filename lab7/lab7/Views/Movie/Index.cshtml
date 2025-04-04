@@ -1,0 +1,43 @@
+﻿
+
+<form method="get">
+	<input type="text" name="search" placeholder="Search..." value="@Context.Request.Query["search"]" />
+
+
+	<br /><br />
+	<select name="genre" class="form-control">
+		<option value="">Төрөл сонгох</option>
+		<option value="Шинжлэх ухаан">Шинжлэх ухаан</option>
+		<option value="Драм">Драм</option>
+		<option value="Адал явдалт">Адал явдалт</option>
+	</select>
+	<br />
+
+	<button type="submit">Хайх</button>
+</form>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Киноны нэр</th>
+			<th>Гарсан он</th>
+			<th>
+				@* <option value="rating_desc" @(Context.Request.Query["sortOrder"] == "rating_desc" ? "selected" : "")>Үнэлгээ буурах</option> *@
+				<a asp-action="Index" asp-route-genre="@(ViewData["genre"]==""?"": ViewData["genre"])" asp-route-search="@(ViewData["search"]==""?"": ViewData["search"])" asp-route-sortOrder="@ViewData["RatingSortOrder"]">Үнэлгээ</a>
+			</th>
+			<th>Төрөл</th>
+
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Name</td>
+				<td>@item.Released</td>
+				<td>@item.Rating</td>
+				<td>@item.TidNavigation.Name</td>
+			</tr>
+		}
+	</tbody>
+</table>
