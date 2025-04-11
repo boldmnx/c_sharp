@@ -1,0 +1,44 @@
+﻿
+
+<form method="get" >  
+	<input type="text" name="wname" placeholder="ажилтан нэр" /> 
+	<select name="bid">
+		<option value="">-------</option>
+		@foreach (var i in ViewBag.workers)
+		{
+			@if (i.ContainsKey("bid") || i.ContainsKey("branchName"))
+			{
+				<option value="@i["bid"]">
+					@i["branchName"]
+				</option>
+			}
+		}
+	</select>
+
+	<input type="submit" value="нэмэх" /> 
+</form> 
+
+<table class="table">
+	<thead>
+		<tr>
+			<td>
+				Нэр
+
+			</td>
+			<td>
+				Салбар
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+
+		@foreach (var i in ViewBag.workers)
+		{
+			<tr>
+				<td>@(i.ContainsKey("wname") ? @i["wname"] : "")    </td>
+				<td>@(i.ContainsKey("bname") ? @i["bname"] : "")    </td>
+			</tr>
+		}
+	</tbody>
+
+</table> 
