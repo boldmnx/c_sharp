@@ -1,0 +1,23 @@
+﻿@foreach (var feedback in Model)
+{
+    <div>
+        <p>@feedback.Message</p>
+        <p>Статус: @feedback.Status</p>
+
+            <p>qwe</p>
+        @User.Identity.Name
+
+        @if (feedback.Status == FeedbackStatus.New && User.IsInRole("Admin"))
+        {
+            <form method="post" asp-action="Respond">
+                <textarea name="response" placeholder="Хариу бичнэ үү" required></textarea>
+                <input type="hidden" name="id" value="@feedback.Id" />
+                <button type="submit">Хариу өгөх</button>
+            </form>
+        }
+        else if (feedback.Status == FeedbackStatus.Resolved)
+        {
+            <p><strong>Хариу:</strong> @feedback.Response</p>
+        }
+    </div>
+}
