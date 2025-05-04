@@ -1,0 +1,42 @@
+﻿@model IEnumerable<feedback.Models.Feedback>
+
+@{
+	ViewData["Title"] = "Админ панель - Санал хүсэлтүүд";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Гарчиг</th>
+			<th>Мессеж</th>
+			<th>Огноо</th>
+			<th>Хэрэглэгч</th>
+			<th>Админ хариу</th>
+			<th>Хариу өгөх</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Title</td>
+				<td>@item.Message</td>
+				<td>@item.CreatedAt.ToString("yyyy-MM-dd HH:mm")</td>
+				<td>@item.User.UserName</td>
+				<td>@(string.IsNullOrEmpty(item.AdminReply) ? "Хариу өгөөгүй" : item.AdminReply)</td>
+				<td>
+					@if (item.AdminReply == null)
+					{
+						<a class="btn btn-warning" asp-action="Reply" asp-route-id="@item.Id">Хариу өгөх</a>
+					}
+					else
+					{
+						<span class="text-success">Хариу өгсөн</span>
+					}
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

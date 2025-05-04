@@ -1,19 +1,32 @@
-﻿namespace feedback.Models
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace feedback.Models
 {
     public class Feedback
     {
-        public int Id { get; set; }
-        public string UserId { get; set; }
-        public string? Message { get; set; }
-        public DateTime? CreatedAt { get; set; }
-        public FeedbackStatus? Status { get; set; } // Шинэ, шийдвэрлэсэн
-        public string? Response { get; set; } // Хариу
-    }
+        public int? Id { get; set; }
 
-    public enum FeedbackStatus
-    {
-        New,
-        Resolved
+        [Required]
+        [StringLength(100)]
+        public string Title { get; set; }
+
+        [Required]
+        [StringLength(1000)]
+        public string Message { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+        // Харьяалагдах хэрэглэгчийн ID
+        public string? UserId { get; set; }
+
+        [ForeignKey("UserId")]
+        public IdentityUser? User { get; set; }
+
+        // Админ хариу
+        [StringLength(1000)]
+        public string? AdminReply { get; set; }
     }
 
 }

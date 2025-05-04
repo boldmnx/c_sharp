@@ -1,0 +1,23 @@
+﻿@model feedback.Models.Feedback
+
+@{
+    ViewData["Title"] = "Саналд хариу өгөх";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card p-3">
+    <h4>Гарчиг: @Model.Title</h4>
+    <p><strong>Хэрэглэгчийн мессеж:</strong> @Model.Message</p>
+
+    <form asp-action="Reply" method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <label>Хариу</label>
+            <textarea name="adminReply" class="form-control" rows="4" required>@Model.AdminReply</textarea>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Хадгалах</button>
+        <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+    </form>
+</div>
